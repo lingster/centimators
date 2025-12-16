@@ -46,6 +46,7 @@ __all__ = [
     "LogReturnTransformer",
     "GroupStatsTransformer",
     "FeatureNeutralizer",
+    "CyclicalDateTransformer",
     # Optional deps
     "EmbeddingTransformer",  # requires dspy
     "DimReducer",  # umap is optional within
@@ -60,6 +61,7 @@ _LAZY_IMPORTS: dict[str, str] = {
     "LogReturnTransformer": "centimators.feature_transformers.time_series",
     "GroupStatsTransformer": "centimators.feature_transformers.stats",
     "FeatureNeutralizer": "centimators.feature_transformers.neutralization",
+    "CyclicalDateTransformer": "centimators.feature_transformers.cyclical_date",
     # Optional deps
     "EmbeddingTransformer": "centimators.feature_transformers.embedding",
     "DimReducer": "centimators.feature_transformers.dimreduction",
